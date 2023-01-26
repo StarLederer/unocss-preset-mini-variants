@@ -1,6 +1,8 @@
 # unocss-preset-mini-variants
 
-Variants from [@unocss/preset-mini](https://github.com/unocss/unocss/tree/main/packages/preset-mini). This preset uses preset-mini and re-exports its vatiants and options. You might find that some options don't do anything. This preset comes with no utilities and is meant to be used in combination with other presets. I hope this preset can simplify the development of presets by removing the need to reimplement the same variants every time.
+Variants from [@unocss/preset-mini](https://github.com/unocss/unocss/tree/main/packages/preset-mini). This preset uses preset-mini and re-exports its vatiants and options. You might find that some options don't do anything anymore. This preset comes with no utilities and is meant to be used in combination with other presets.
+
+I hope this preset can simplify the development of other UnoCSS presets (e.g [Windblade](https://github.com/StarLederer/windblade)) by removing the need to reimplement the same variants every time.
 
 > This preset inherits variatns and options from
 > - [@unocss/preset-mini](https://github.com/unocss/unocss/tree/main/packages/preset-mini)
