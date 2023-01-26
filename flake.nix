@@ -1,5 +1,5 @@
 {
-  description = "pnpm";
+  description = "npm & pnpm";
 
   inputs = {
     flake-utils.url = "github:numtide/flake-utils/master";
@@ -13,6 +13,7 @@
       in {
         devShell = pkgs.mkShell rec {
           nativeBuildInputs = with pkgs; [
+            nodePackages.npm
             nodePackages.pnpm
           ];
         };
