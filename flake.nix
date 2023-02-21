@@ -1,8 +1,8 @@
 {
-  description = "npm & pnpm";
+  description = "pnpm";
 
   inputs = {
-    flake-utils.url = "github:numtide/flake-utils/master";
+    flake-utils.url = "github:numtide/flake-utils";
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   };
 
@@ -13,8 +13,7 @@
       in {
         devShell = pkgs.mkShell rec {
           nativeBuildInputs = with pkgs; [
-            nodePackages.npm
-            nodePackages.pnpm
+            nodejs-18_x.pkgs.pnpm
           ];
         };
       }
