@@ -40,13 +40,13 @@
     "stub": "unbuild --stub"
   },
   "dependencies": {
-    "@unocss/config": "^0.53.3",
-    "@unocss/core": "^0.53.3",
-    "@unocss/preset-mini": "^0.53.3"
+    "@unocss/config": "^0.54.1",
+    "@unocss/core": "^0.54.1",
+    "@unocss/preset-mini": "^0.54.1"
   },
   "devDependencies": {
-    "@types/node": "^18.16.18",
-    "typescript": "^4.9.5",
-    "unbuild": "^0.8.11"
+    "@types/node": "^20.4.6",
+    "typescript": "^5.1.6",
+    "unbuild": "^1.2.1"
   }
 }
