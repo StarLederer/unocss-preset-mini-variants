@@ -40,9 +40,9 @@
     "stub": "unbuild --stub"
   },
   "dependencies": {
-    "@unocss/config": "^0.54.1",
-    "@unocss/core": "^0.54.1",
-    "@unocss/preset-mini": "^0.54.1"
+    "@unocss/config": "^0.55.0",
+    "@unocss/core": "^0.55.0",
+    "@unocss/preset-mini": "^0.55.0"
   },
   "devDependencies": {
     "@types/node": "^20.4.6",
